@@ -1,6 +1,6 @@
 import { Row, Col, Image, Container } from "react-bootstrap"
 
-function storeListings() {
+function StoreListings() {
 
 return (
  <div>  
@@ -42,4 +42,4 @@ return (
 )
 }
 
-export default storeListings
+export default StoreListings

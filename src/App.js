@@ -1,18 +1,20 @@
+import React from 'react';
 import './App.css';
-import topBar from './component/TopBar';
-import storeListings from './component/StoreListing';
-import backgroundImg from './component/backgroundImage';
+import TopBar from "./component/TopBar"
+import BackgroundImg from './component/backgroundImage';
+import StoreListings from './component/StoreListing';
 
 const App = () => {
   return (
     <div>
-      <topBar/>
+      <TopBar/>
       <main>
-        <backgroundImg/>
-        <storeListings/>
+        <BackgroundImg/>
+        <StoreListings/>
       </main>
     </div>
-  );
+
+  )  
 }
 
 export default App;

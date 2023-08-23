@@ -1,9 +1,9 @@
 import Card from 'react-bootstrap/Card';
 
-function backgroundImg() {
+function BackgroundImg() {
   return (
     <Card className="bg-dark text-white">
-      <Card.Img src="public\background-img.jpg" alt="Card image" />
+      <Card.Img src="background-img.jpg" alt="Card image" />
       <Card.ImgOverlay>
         <Card.Title>Order groceries for delivery or pickup today</Card.Title>
         <Card.Text>
@@ -14,4 +14,4 @@ function backgroundImg() {
   );
 }
 
-export default backgroundImg;
+export default BackgroundImg;
